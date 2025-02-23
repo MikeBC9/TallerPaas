@@ -29,7 +29,7 @@ jobs:
           name: Deploy to Railway App
           command: |
             cd bankchurn-api 
-            railway up --service=NombreDelServicio
+            railway up --service=f1df16e9-a443-4f92-9b1b-058bca01d5cc
             railway up --detach
 
 
